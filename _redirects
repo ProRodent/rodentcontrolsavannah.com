@@ -1,0 +1,8 @@
+# Cloudflare Pages already serves /page.html at /page and redirects the .html form,
+# so no per-file .html rules are needed. Only short alias paths are listed here.
+/service  /services/  301
+/area  /areas/  301
+/blogs  /blog/  301
+/blog/index  /blog/  301
+/services/index  /services/  301
+/areas/index  /areas/  301
